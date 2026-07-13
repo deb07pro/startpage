@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Startpage",
+  "version": "1.0",
+  "description": "New Tab",
+  "chrome_url_overrides": {
+    "newtab": "deb/index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "idkman@idkman"
+    }
+  }
+}
