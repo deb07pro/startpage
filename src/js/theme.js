@@ -70,6 +70,9 @@ updateColors(currentIndex);
 document.getElementById("carouselImage").src =
   "../src/images/" + images[currentIndex];
 
+const imageContainer = document.getElementById("image");
+imageContainer.addEventListener("click", nextImage);
+
 // Image is opacity 0 and text is translated off screen by default
 // Add the loaded class to the image and text to animate them in
 window.onload = function () {
