@@ -1,72 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>~/startpage</title>
-    <meta name="darkreader-lock" />
-    <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      href="https://raw.githubusercontent.com/NixOS/nixos-artwork/refs/heads/master/logo/nix-snowflake-white.svg"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="../src/css/style.css" rel="stylesheet" />
-  </head>
+<head>
+<title>~/startpage</title>
+<meta name="darkreader-lock" />
+<meta charset="UTF-8" />
+<link rel="icon" href="https://raw.githubusercontent.com/NixOS/nixos-artwork/refs/heads/master/logo/nix-snowflake-white.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../src/css/style.css" rel="stylesheet" />
+</head>
 
-  <body class="hmmm">
-    <div id="image">
-      <img id="carouselImage" src="../src/images/cover1.webp" />
-    </div>
-    <div id="text">
-      <div id="greeting">Welcome $HOME!</div>
-      <div id="date"></div>
-      <div id="links">
-        <div class="urls">
-          <div class="header">~/general </div>
-          <ul>
-            <li><a href="https://google.com/">Google</a></li>
-            <li><a href="https://youtube.com">YouTube</a></li>
-            <li><a href="https://mail.proton.me/">ProtonMail</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
-            <li><a href="https://drive.google.com/">Drive</a></li>
-          </ul>
-        </div>
-        <div class="urls">
-          <div class="header">~/stuffs </div>
-          <ul>
-            <li><a href="https://excalidraw.com/">Excalidraw</a></li>
-            <li><a href="https://www.photopea.com/">Photopea</a></li>
-            <li><a href="https://leetcode.com/problemset">Lc</a></li>
-            <li><a href="https://gitlab.com/">GitLab</a></li>
-            <li>
-              <a href="https://github.com/deb07pro">GitHub</a>
-            </li>
-          </ul>
-        </div>
-        <div class="urls">
-          <div class="header">~/study 󰑴</div>
-          <ul>
-            <li><a href="https://web.getmarks.app/">Marks</a></li>
-            <li><a href="https://mangafire.to/">Mngfire</a></li>
-            <li>
-              <a href="https://www.learncpp.com/">cpp</a>
-            </li>
-            <li><a href="https://www.desmos.com/calculator">Desmos</a></li>
-            <li><a href="https://app.quizrr.in/v2/home">Quizzr</a></li>
-          </ul>
-        </div>
-        <div class="urls">
-          <div class="header">~/dumbness 󰜏</div>
-          <ul>
-            <li><a href="https://chatgpt.com/">ChatGPT</a></li>
-            <li><a href="https://claude.ai/">Claude</a></li>
-            <li><a href="https://reddit.com/">Rddt</a></li>
-            <li><a href="https://x.com/">Sloptter</a></li>
-            <li><a href="https://animepahe.pw/">anipahe</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script async src="../src/js/date.js"></script>
-  <script async src="../src/js/theme.js" currentIndex="0"></script>
+<body class="hmmm">
+<div id="image">
+<img id="carouselImage" src="../src/images/cover1.webp" />
+</div>
+
+<div id="text">
+<div id="greeting">Welcome $HOME!</div>
+<div id="date"></div>
+<button id="edit-toggle">edit</button>
+<div id="links"></div>
+</div>
+</body>
+
+<script async src="../src/js/date.js"></script>
+<script async src="../src/js/theme.js" currentIndex="0"></script>
+<script defer src="../src/js/shortcuts.js"></script>
 </html>
+ 

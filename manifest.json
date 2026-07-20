@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Startpage",
-  "version": "1.0",
-  "description": "New Tab",
+  "version": "2.0.0",
+  "description": "Startpage with editable shortcuts",
   "chrome_url_overrides": {
     "newtab": "deb/index.html"
   },
