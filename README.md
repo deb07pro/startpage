@@ -8,10 +8,5 @@ Yet another minimal startpage (now with multitheme!):
 > **NOTE**: keep in mind that I don't own any rights to the images included in
 > this repository.
 
->To add it as new tab in Firefox(or its derivatives):
+> To add it as extension on Firefox*, use the .xpi file from the releases tab.
 
->Go to about:debugging#/runtime/this-firefox and Load Temporary-Addon -> manifest.json
-
-### Preview:
-
-![img](preview.webp)
